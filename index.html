@@ -1,0 +1,1038 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>MIRRORA AI — Synthetic Media Studio</title>
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+</head>
+
+<body>
+
+    <!-- ================================
+         BACKGROUND
+         ================================ -->
+
+    <div class="background-grid"></div>
+
+    <div class="ambient-glow glow-one"></div>
+    <div class="ambient-glow glow-two"></div>
+
+
+    <!-- ================================
+         NAVIGATION
+         ================================ -->
+
+    <header class="navbar">
+
+        <div class="brand">
+
+            <div class="brand-symbol">
+                M
+            </div>
+
+            <div>
+                <div class="brand-name">
+                    MIRRORA
+                </div>
+
+                <div class="brand-subtitle">
+                    AI MEDIA STUDIO
+                </div>
+            </div>
+
+        </div>
+
+
+        <nav>
+
+            <a href="#home">
+                HOME
+            </a>
+
+            <a href="#studio">
+                STUDIO
+            </a>
+
+            <a href="#technology">
+                TECHNOLOGY
+            </a>
+
+        </nav>
+
+
+        <button
+            class="nav-button"
+            onclick="openStudio()"
+        >
+            OPEN STUDIO
+        </button>
+
+    </header>
+
+
+    <!-- ================================
+         HERO
+         ================================ -->
+
+    <main id="home">
+
+        <section class="hero">
+
+            <div class="hero-content">
+
+                <div class="eyebrow">
+                    <span class="status-dot"></span>
+
+                    MIRRORA VISION SYSTEM
+                    <span class="version">
+                        v2.8
+                    </span>
+                </div>
+
+
+                <h1>
+                    Your face.
+                    <br>
+
+                    <span>
+                        A different story.
+                    </span>
+                </h1>
+
+
+                <p class="hero-description">
+
+                    A cinematic synthetic-media workspace
+                    designed to transform visual identities
+                    inside a controlled digital environment.
+
+                </p>
+
+
+                <div class="hero-actions">
+
+                    <button
+                        class="primary-button"
+                        onclick="openStudio()"
+                    >
+                        ENTER MIRRORA
+                        <span>↗</span>
+                    </button>
+
+
+                    <button
+                        class="secondary-button"
+                        onclick="showTechnology()"
+                    >
+                        EXPLORE SYSTEM
+                    </button>
+
+                </div>
+
+
+                <div class="hero-statistics">
+
+                    <div>
+                        <strong>
+                            98.7%
+                        </strong>
+
+                        <span>
+                            ANALYSIS ACCURACY
+                        </span>
+                    </div>
+
+
+                    <div>
+                        <strong>
+                            4K
+                        </strong>
+
+                        <span>
+                            PREVIEW OUTPUT
+                        </span>
+                    </div>
+
+
+                    <div>
+                        <strong>
+                            24 FPS
+                        </strong>
+
+                        <span>
+                            FRAME ANALYSIS
+                        </span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- HERO VISUAL -->
+
+            <div class="hero-interface">
+
+                <div class="interface-window">
+
+                    <div class="window-header">
+
+                        <div class="window-controls">
+
+                            <span></span>
+                            <span></span>
+                            <span></span>
+
+                        </div>
+
+
+                        <span>
+                            MIRRORA / WORKSPACE
+                        </span>
+
+
+                        <span class="live-indicator">
+                            ● LIVE
+                        </span>
+
+                    </div>
+
+
+                    <div class="scan-area">
+
+                        <div class="scan-line"></div>
+
+
+                        <div class="face-placeholder">
+
+                            <div class="face-ring"></div>
+
+                            <div class="face-outline">
+
+                                <div class="eye eye-left"></div>
+                                <div class="eye eye-right"></div>
+
+                                <div class="nose-line"></div>
+
+                                <div class="mouth-line"></div>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="scan-label label-one">
+                            FACE DETECTED
+                        </div>
+
+                        <div class="scan-label label-two">
+                            ANALYSIS READY
+                        </div>
+
+
+                        <div class="corner corner-tl"></div>
+                        <div class="corner corner-tr"></div>
+                        <div class="corner corner-bl"></div>
+                        <div class="corner corner-br"></div>
+
+                    </div>
+
+
+                    <div class="interface-footer">
+
+                        <span>
+                            SOURCE MEDIA
+                        </span>
+
+                        <span>
+                            01 / 01
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================================
+             STUDIO
+             ================================ -->
+
+        <section
+            id="studio"
+            class="studio-section"
+        >
+
+            <div class="section-heading">
+
+                <div>
+
+                    <span class="section-number">
+                        01 — STUDIO
+                    </span>
+
+                    <h2>
+                        Transformation
+                        Workspace
+                    </h2>
+
+                </div>
+
+
+                <div class="workspace-status">
+                    <span></span>
+                    SYSTEM READY
+                </div>
+
+            </div>
+
+
+            <div class="studio-grid">
+
+
+                <!-- SOURCE MEDIA -->
+
+                <div class="panel source-panel">
+
+                    <div class="panel-header">
+
+                        <div>
+
+                            <span class="panel-number">
+                                01
+                            </span>
+
+                            <h3>
+                                Source Media
+                            </h3>
+
+                        </div>
+
+                        <span class="panel-status">
+                            READY
+                        </span>
+
+                    </div>
+
+
+                    <div
+                        class="upload-zone"
+                        onclick="simulateUpload()"
+                    >
+
+                        <div class="upload-icon">
+                            +
+                        </div>
+
+                        <strong>
+                            SELECT MEDIA
+                        </strong>
+
+                        <span>
+                            JPG / PNG / MP4
+                        </span>
+
+                        <small>
+                            Click to simulate upload
+                        </small>
+
+                    </div>
+
+
+                    <div
+                        class="media-file"
+                        id="mediaFile"
+                    >
+
+                        <div class="file-icon">
+                            IMG
+                        </div>
+
+                        <div class="file-information">
+
+                            <strong>
+                                source_media_01
+                            </strong>
+
+                            <span>
+                                ANALYSIS READY
+                            </span>
+
+                        </div>
+
+                        <span class="file-check">
+                            ✓
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <!-- TRANSFORMATION -->
+
+                <div class="panel transformation-panel">
+
+                    <div class="panel-header">
+
+                        <div>
+
+                            <span class="panel-number">
+                                02
+                            </span>
+
+                            <h3>
+                                Transformation
+                            </h3>
+
+                        </div>
+
+                        <span class="panel-status">
+                            SIMULATION
+                        </span>
+
+                    </div>
+
+
+                    <div class="comparison">
+
+                        <div class="comparison-side">
+
+                            <span class="comparison-label">
+                                SOURCE
+                            </span>
+
+                            <div class="mini-face source-face">
+
+                                <div class="mini-hair"></div>
+
+                                <div class="mini-eye left"></div>
+                                <div class="mini-eye right"></div>
+
+                                <div class="mini-nose"></div>
+
+                                <div class="mini-mouth"></div>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="comparison-arrow">
+
+                            <span>
+                                ✦
+                            </span>
+
+                            <div></div>
+
+                            <span>
+                                →
+                            </span>
+
+                        </div>
+
+
+                        <div class="comparison-side">
+
+                            <span class="comparison-label">
+                                AI PREVIEW
+                            </span>
+
+                            <div
+                                class="mini-face target-face"
+                                id="targetFace"
+                            >
+
+                                <div class="mini-hair"></div>
+
+                                <div class="mini-eye left"></div>
+                                <div class="mini-eye right"></div>
+
+                                <div class="mini-nose"></div>
+
+                                <div class="mini-mouth"></div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="transformation-message">
+
+                        <span class="pulse-dot"></span>
+
+                        Visual transformation
+                        simulation ready
+
+                    </div>
+
+
+                    <button
+                        class="transform-button"
+                        onclick="runTransformation()"
+                    >
+
+                        RUN TRANSFORMATION
+
+                        <span>
+                            ✦
+                        </span>
+
+                    </button>
+
+                </div>
+
+
+                <!-- ANALYSIS -->
+
+                <div class="panel analysis-panel">
+
+                    <div class="panel-header">
+
+                        <div>
+
+                            <span class="panel-number">
+                                03
+                            </span>
+
+                            <h3>
+                                AI Analysis
+                            </h3>
+
+                        </div>
+
+                        <span
+                            class="panel-status"
+                            id="analysisStatus"
+                        >
+                            READY
+                        </span>
+
+                    </div>
+
+
+                    <div class="analysis-list">
+
+
+                        <div class="analysis-row">
+
+                            <div class="analysis-info">
+
+                                <span>
+                                    Face Detection
+                                </span>
+
+                                <strong>
+                                    98%
+                                </strong>
+
+                            </div>
+
+                            <div class="progress">
+                                <div style="width:98%"></div>
+                            </div>
+
+                        </div>
+
+
+                        <div class="analysis-row">
+
+                            <div class="analysis-info">
+
+                                <span>
+                                    Facial Mapping
+                                </span>
+
+                                <strong>
+                                    96%
+                                </strong>
+
+                            </div>
+
+                            <div class="progress">
+                                <div style="width:96%"></div>
+                            </div>
+
+                        </div>
+
+
+                        <div class="analysis-row">
+
+                            <div class="analysis-info">
+
+                                <span>
+                                    Expression Tracking
+                                </span>
+
+                                <strong>
+                                    94%
+                                </strong>
+
+                            </div>
+
+                            <div class="progress">
+                                <div style="width:94%"></div>
+                            </div>
+
+                        </div>
+
+
+                        <div class="analysis-row">
+
+                            <div class="analysis-info">
+
+                                <span>
+                                    Lighting Adaptation
+                                </span>
+
+                                <strong>
+                                    91%
+                                </strong>
+
+                            </div>
+
+                            <div class="progress">
+                                <div style="width:91%"></div>
+                            </div>
+
+                        </div>
+
+
+                        <div class="analysis-row">
+
+                            <div class="analysis-info">
+
+                                <span>
+                                    Frame Alignment
+                                </span>
+
+                                <strong>
+                                    97%
+                                </strong>
+
+                            </div>
+
+                            <div class="progress">
+                                <div style="width:97%"></div>
+                            </div>
+
+                        </div>
+
+
+                        <div class="analysis-row">
+
+                            <div class="analysis-info">
+
+                                <span>
+                                    Temporal Consistency
+                                </span>
+
+                                <strong>
+                                    93%
+                                </strong>
+
+                            </div>
+
+                            <div class="progress">
+                                <div style="width:93%"></div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- ================================
+                 TRANSFORMATION DETAILS
+                 ================================ -->
+
+            <div class="details-panel">
+
+                <div class="details-title">
+
+                    <span>
+                        TRANSFORMATION ANALYSIS
+                    </span>
+
+                    <small>
+                        FICTIONAL CINEMATIC SIMULATION
+                    </small>
+
+                </div>
+
+
+                <div class="details-grid">
+
+
+                    <div class="detail-card">
+
+                        <span>
+                            SOURCE FACE
+                        </span>
+
+                        <strong>
+                            DETECTED
+                        </strong>
+
+                        <small>
+                            Visual reference located
+                        </small>
+
+                    </div>
+
+
+                    <div class="detail-card">
+
+                        <span>
+                            EXPRESSION
+                        </span>
+
+                        <strong>
+                            SYNCHRONIZED
+                        </strong>
+
+                        <small>
+                            Preview expression aligned
+                        </small>
+
+                    </div>
+
+
+                    <div class="detail-card">
+
+                        <span>
+                            LIGHTING
+                        </span>
+
+                        <strong>
+                            ADAPTED
+                        </strong>
+
+                        <small>
+                            Scene lighting simulated
+                        </small>
+
+                    </div>
+
+
+                    <div class="detail-card">
+
+                        <span>
+                            OUTPUT
+                        </span>
+
+                        <strong>
+                            AI PREVIEW
+                        </strong>
+
+                        <small>
+                            Synthetic visual preview
+                        </small>
+
+                    </div>
+
+                </div>
+
+
+                <div class="model-bar">
+
+                    <div>
+
+                        <small>
+                            MODEL
+                        </small>
+
+                        <strong>
+                            MIRRORA VISION 2.8
+                        </strong>
+
+                    </div>
+
+
+                    <div>
+
+                        <small>
+                            MODE
+                        </small>
+
+                        <strong>
+                            CINEMATIC
+                        </strong>
+
+                    </div>
+
+
+                    <div>
+
+                        <small>
+                            CONFIDENCE
+                        </small>
+
+                        <strong>
+                            94%
+                        </strong>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- ================================
+                 PROCESSING CONSOLE
+                 ================================ -->
+
+            <div
+                class="processing-console"
+                id="processingConsole"
+            >
+
+                <div class="console-header">
+
+                    <span>
+                        MIRRORA PROCESSING CONSOLE
+                    </span>
+
+                    <span>
+                        SECURE SESSION
+                    </span>
+
+                </div>
+
+
+                <div
+                    class="console-output"
+                    id="consoleOutput"
+                >
+
+                    <div>
+                        <span>
+                            [SYSTEM]
+                        </span>
+
+                        Waiting for transformation request...
+                    </div>
+
+                </div>
+
+
+                <div class="console-progress">
+
+                    <div class="console-progress-bar">
+
+                        <div
+                            id="consoleProgress"
+                            style="width:0%"
+                        ></div>
+
+                    </div>
+
+                    <span id="progressText">
+                        0%
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <!-- ================================
+                 SAFETY NOTICE
+                 ================================ -->
+
+            <div class="safety-notice">
+
+                <div class="safety-icon">
+                    !
+                </div>
+
+                <div>
+
+                    <strong>
+                        RESPONSIBLE MEDIA NOTICE
+                    </strong>
+
+                    <p>
+                        MIRRORA's transformation shown here
+                        is a fictional visual simulation created
+                        for demonstration and cinematic purposes.
+                        Real-world media transformations should
+                        only be created and shared with appropriate
+                        permission and consent.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================================
+             TECHNOLOGY
+             ================================ -->
+
+        <section
+            id="technology"
+            class="technology-section"
+        >
+
+            <div class="section-heading">
+
+                <div>
+
+                    <span class="section-number">
+                        02 — TECHNOLOGY
+                    </span>
+
+                    <h2>
+                        Inside MIRRORA
+                    </h2>
+
+                </div>
+
+            </div>
+
+
+            <div class="technology-grid">
+
+
+                <div class="technology-card">
+
+                    <div class="technology-number">
+                        01
+                    </div>
+
+                    <h3>
+                        Visual Analysis
+                    </h3>
+
+                    <p>
+                        The interface analyzes visual
+                        characteristics and prepares a
+                        cinematic transformation preview.
+                    </p>
+
+                </div>
+
+
+                <div class="technology-card">
+
+                    <div class="technology-number">
+                        02
+                    </div>
+
+                    <h3>
+                        Expression Tracking
+                    </h3>
+
+                    <p>
+                        Facial expressions are represented
+                        through a simulated tracking system
+                        designed for the MIRRORA interface.
+                    </p>
+
+                </div>
+
+
+                <div class="technology-card">
+
+                    <div class="technology-number">
+                        03
+                    </div>
+
+                    <h3>
+                        Scene Adaptation
+                    </h3>
+
+                    <p>
+                        Lighting and frame consistency are
+                        represented through fictional AI
+                        processing metrics.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================================
+         FOOTER
+         ================================ -->
+
+    <footer>
+
+        <div class="footer-brand">
+
+            <div class="brand-symbol">
+                M
+            </div>
+
+            <div>
+
+                <strong>
+                    MIRRORA
+                </strong>
+
+                <span>
+                    AI MEDIA STUDIO
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-text">
+
+            FICTIONAL INTERFACE
+            <br>
+            CREATED FOR CINEMATIC USE
+
+        </div>
+
+
+        <div class="footer-version">
+
+            MIRRORA VISION 2.8
+            <br>
+            © 2026
+
+        </div>
+
+    </footer>
+
+
+    <!-- ================================
+         JAVASCRIPT
+         ================================ -->
+
+    <script src="script.js"></script>
+
+</body>
+</html>
